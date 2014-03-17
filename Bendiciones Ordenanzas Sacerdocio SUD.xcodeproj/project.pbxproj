@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D0A8A9E18D6AE3F00BAB775 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0A8A9D18D6AE3F00BAB775 /* Foundation.framework */; };
+		9D0A8AA018D6AE3F00BAB775 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0A8A9F18D6AE3F00BAB775 /* CoreGraphics.framework */; };
+		9D0A8AA218D6AE3F00BAB775 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0A8AA118D6AE3F00BAB775 /* UIKit.framework */; };
+		9D0A8AA818D6AE3F00BAB775 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D0A8AA618D6AE3F00BAB775 /* InfoPlist.strings */; };
+		9D0A8AAA18D6AE3F00BAB775 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A8AA918D6AE3F00BAB775 /* main.m */; };
+		9D0A8AAE18D6AE3F00BAB775 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A8AAD18D6AE3F00BAB775 /* AppDelegate.m */; };
+		9D0A8AB118D6AE3F00BAB775 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D0A8AAF18D6AE3F00BAB775 /* Main.storyboard */; };
+		9D0A8AB418D6AE3F00BAB775 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A8AB318D6AE3F00BAB775 /* ViewController.m */; };
+		9D0A8AB618D6AE3F00BAB775 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D0A8AB518D6AE3F00BAB775 /* Images.xcassets */; };
+		9D0A8ABD18D6AE3F00BAB775 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0A8ABC18D6AE3F00BAB775 /* XCTest.framework */; };
+		9D0A8ABE18D6AE3F00BAB775 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0A8A9D18D6AE3F00BAB775 /* Foundation.framework */; };
+		9D0A8ABF18D6AE3F00BAB775 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0A8AA118D6AE3F00BAB775 /* UIKit.framework */; };
+		9D0A8AC718D6AE3F00BAB775 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D0A8AC518D6AE3F00BAB775 /* InfoPlist.strings */; };
+		9D0A8AC918D6AE3F00BAB775 /* Bendiciones_Ordenanzas_Sacerdocio_SUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A8AC818D6AE3F00BAB775 /* Bendiciones_Ordenanzas_Sacerdocio_SUDTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D0A8AC018D6AE3F00BAB775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D0A8A9218D6AE3F00BAB775 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D0A8A9918D6AE3F00BAB775;
+			remoteInfo = "Bendiciones Ordenanzas Sacerdocio SUD";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D0A8A9A18D6AE3F00BAB775 /* Bendiciones Ordenanzas Sacerdocio SUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bendiciones Ordenanzas Sacerdocio SUD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D0A8A9D18D6AE3F00BAB775 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D0A8A9F18D6AE3F00BAB775 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D0A8AA118D6AE3F00BAB775 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D0A8AA518D6AE3F00BAB775 /* Bendiciones Ordenanzas Sacerdocio SUD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bendiciones Ordenanzas Sacerdocio SUD-Info.plist"; sourceTree = "<group>"; };
+		9D0A8AA718D6AE3F00BAB775 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D0A8AA918D6AE3F00BAB775 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D0A8AAB18D6AE3F00BAB775 /* Bendiciones Ordenanzas Sacerdocio SUD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bendiciones Ordenanzas Sacerdocio SUD-Prefix.pch"; sourceTree = "<group>"; };
+		9D0A8AAC18D6AE3F00BAB775 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D0A8AAD18D6AE3F00BAB775 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D0A8AB018D6AE3F00BAB775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D0A8AB218D6AE3F00BAB775 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D0A8AB318D6AE3F00BAB775 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D0A8AB518D6AE3F00BAB775 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9D0A8ABB18D6AE3F00BAB775 /* Bendiciones Ordenanzas Sacerdocio SUDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bendiciones Ordenanzas Sacerdocio SUDTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D0A8ABC18D6AE3F00BAB775 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9D0A8AC418D6AE3F00BAB775 /* Bendiciones Ordenanzas Sacerdocio SUDTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bendiciones Ordenanzas Sacerdocio SUDTests-Info.plist"; sourceTree = "<group>"; };
+		9D0A8AC618D6AE3F00BAB775 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D0A8AC818D6AE3F00BAB775 /* Bendiciones_Ordenanzas_Sacerdocio_SUDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bendiciones_Ordenanzas_Sacerdocio_SUDTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D0A8A9718D6AE3F00BAB775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D0A8AA018D6AE3F00BAB775 /* CoreGraphics.framework in Frameworks */,
+				9D0A8AA218D6AE3F00BAB775 /* UIKit.framework in Frameworks */,
+				9D0A8A9E18D6AE3F00BAB775 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D0A8AB818D6AE3F00BAB775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D0A8ABD18D6AE3F00BAB775 /* XCTest.framework in Frameworks */,
+				9D0A8ABF18D6AE3F00BAB775 /* UIKit.framework in Frameworks */,
+				9D0A8ABE18D6AE3F00BAB775 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D0A8A9118D6AE3F00BAB775 = {
+			isa = PBXGroup;
+			children = (
+				9D0A8AA318D6AE3F00BAB775 /* Bendiciones Ordenanzas Sacerdocio SUD */,
+				9D0A8AC218D6AE3F00BAB775 /* Bendiciones Ordenanzas Sacerdocio SUDTests */,
+				9D0A8A9C18D6AE3F00BAB775 /* Frameworks */,
+				9D0A8A9B18D6AE3F00BAB775 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D0A8A9B18D6AE3F00BAB775 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D0A8A9A18D6AE3F00BAB775 /* Bendiciones Ordenanzas Sacerdocio SUD.app */,
+				9D0A8ABB18D6AE3F00BAB775 /* Bendiciones Ordenanzas Sacerdocio SUDTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D0A8A9C18D6AE3F00BAB775 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D0A8A9D18D6AE3F00BAB775 /* Foundation.framework */,
+				9D0A8A9F18D6AE3F00BAB775 /* CoreGraphics.framework */,
+				9D0A8AA118D6AE3F00BAB775 /* UIKit.framework */,
+				9D0A8ABC18D6AE3F00BAB775 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D0A8AA318D6AE3F00BAB775 /* Bendiciones Ordenanzas Sacerdocio SUD */ = {
+			isa = PBXGroup;
+			children = (
+				9D0A8AAC18D6AE3F00BAB775 /* AppDelegate.h */,
+				9D0A8AAD18D6AE3F00BAB775 /* AppDelegate.m */,
+				9D0A8AAF18D6AE3F00BAB775 /* Main.storyboard */,
+				9D0A8AB218D6AE3F00BAB775 /* ViewController.h */,
+				9D0A8AB318D6AE3F00BAB775 /* ViewController.m */,
+				9D0A8AB518D6AE3F00BAB775 /* Images.xcassets */,
+				9D0A8AA418D6AE3F00BAB775 /* Supporting Files */,
+			);
+			path = "Bendiciones Ordenanzas Sacerdocio SUD";
+			sourceTree = "<group>";
+		};
+		9D0A8AA418D6AE3F00BAB775 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D0A8AA518D6AE3F00BAB775 /* Bendiciones Ordenanzas Sacerdocio SUD-Info.plist */,
+				9D0A8AA618D6AE3F00BAB775 /* InfoPlist.strings */,
+				9D0A8AA918D6AE3F00BAB775 /* main.m */,
+				9D0A8AAB18D6AE3F00BAB775 /* Bendiciones Ordenanzas Sacerdocio SUD-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D0A8AC218D6AE3F00BAB775 /* Bendiciones Ordenanzas Sacerdocio SUDTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D0A8AC818D6AE3F00BAB775 /* Bendiciones_Ordenanzas_Sacerdocio_SUDTests.m */,
+				9D0A8AC318D6AE3F00BAB775 /* Supporting Files */,
+			);
+			path = "Bendiciones Ordenanzas Sacerdocio SUDTests";
+			sourceTree = "<group>";
+		};
+		9D0A8AC318D6AE3F00BAB775 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D0A8AC418D6AE3F00BAB775 /* Bendiciones Ordenanzas Sacerdocio SUDTests-Info.plist */,
+				9D0A8AC518D6AE3F00BAB775 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D0A8A9918D6AE3F00BAB775 /* Bendiciones Ordenanzas Sacerdocio SUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D0A8ACC18D6AE3F00BAB775 /* Build configuration list for PBXNativeTarget "Bendiciones Ordenanzas Sacerdocio SUD" */;
+			buildPhases = (
+				9D0A8A9618D6AE3F00BAB775 /* Sources */,
+				9D0A8A9718D6AE3F00BAB775 /* Frameworks */,
+				9D0A8A9818D6AE3F00BAB775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bendiciones Ordenanzas Sacerdocio SUD";
+			productName = "Bendiciones Ordenanzas Sacerdocio SUD";
+			productReference = 9D0A8A9A18D6AE3F00BAB775 /* Bendiciones Ordenanzas Sacerdocio SUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D0A8ABA18D6AE3F00BAB775 /* Bendiciones Ordenanzas Sacerdocio SUDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D0A8ACF18D6AE3F00BAB775 /* Build configuration list for PBXNativeTarget "Bendiciones Ordenanzas Sacerdocio SUDTests" */;
+			buildPhases = (
+				9D0A8AB718D6AE3F00BAB775 /* Sources */,
+				9D0A8AB818D6AE3F00BAB775 /* Frameworks */,
+				9D0A8AB918D6AE3F00BAB775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D0A8AC118D6AE3F00BAB775 /* PBXTargetDependency */,
+			);
+			name = "Bendiciones Ordenanzas Sacerdocio SUDTests";
+			productName = "Bendiciones Ordenanzas Sacerdocio SUDTests";
+			productReference = 9D0A8ABB18D6AE3F00BAB775 /* Bendiciones Ordenanzas Sacerdocio SUDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D0A8A9218D6AE3F00BAB775 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "app-candi";
+				TargetAttributes = {
+					9D0A8ABA18D6AE3F00BAB775 = {
+						TestTargetID = 9D0A8A9918D6AE3F00BAB775;
+					};
+				};
+			};
+			buildConfigurationList = 9D0A8A9518D6AE3F00BAB775 /* Build configuration list for PBXProject "Bendiciones Ordenanzas Sacerdocio SUD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D0A8A9118D6AE3F00BAB775;
+			productRefGroup = 9D0A8A9B18D6AE3F00BAB775 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D0A8A9918D6AE3F00BAB775 /* Bendiciones Ordenanzas Sacerdocio SUD */,
+				9D0A8ABA18D6AE3F00BAB775 /* Bendiciones Ordenanzas Sacerdocio SUDTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D0A8A9818D6AE3F00BAB775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D0A8AB618D6AE3F00BAB775 /* Images.xcassets in Resources */,
+				9D0A8AA818D6AE3F00BAB775 /* InfoPlist.strings in Resources */,
+				9D0A8AB118D6AE3F00BAB775 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D0A8AB918D6AE3F00BAB775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D0A8AC718D6AE3F00BAB775 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D0A8A9618D6AE3F00BAB775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D0A8AB418D6AE3F00BAB775 /* ViewController.m in Sources */,
+				9D0A8AAE18D6AE3F00BAB775 /* AppDelegate.m in Sources */,
+				9D0A8AAA18D6AE3F00BAB775 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D0A8AB718D6AE3F00BAB775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D0A8AC918D6AE3F00BAB775 /* Bendiciones_Ordenanzas_Sacerdocio_SUDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D0A8AC118D6AE3F00BAB775 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D0A8A9918D6AE3F00BAB775 /* Bendiciones Ordenanzas Sacerdocio SUD */;
+			targetProxy = 9D0A8AC018D6AE3F00BAB775 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D0A8AA618D6AE3F00BAB775 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D0A8AA718D6AE3F00BAB775 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9D0A8AAF18D6AE3F00BAB775 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D0A8AB018D6AE3F00BAB775 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D0A8AC518D6AE3F00BAB775 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D0A8AC618D6AE3F00BAB775 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D0A8ACA18D6AE3F00BAB775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9D0A8ACB18D6AE3F00BAB775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D0A8ACD18D6AE3F00BAB775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bendiciones Ordenanzas Sacerdocio SUD/Bendiciones Ordenanzas Sacerdocio SUD-Prefix.pch";
+				INFOPLIST_FILE = "Bendiciones Ordenanzas Sacerdocio SUD/Bendiciones Ordenanzas Sacerdocio SUD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D0A8ACE18D6AE3F00BAB775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bendiciones Ordenanzas Sacerdocio SUD/Bendiciones Ordenanzas Sacerdocio SUD-Prefix.pch";
+				INFOPLIST_FILE = "Bendiciones Ordenanzas Sacerdocio SUD/Bendiciones Ordenanzas Sacerdocio SUD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9D0A8AD018D6AE3F00BAB775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bendiciones Ordenanzas Sacerdocio SUD.app/Bendiciones Ordenanzas Sacerdocio SUD";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bendiciones Ordenanzas Sacerdocio SUD/Bendiciones Ordenanzas Sacerdocio SUD-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Bendiciones Ordenanzas Sacerdocio SUDTests/Bendiciones Ordenanzas Sacerdocio SUDTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9D0A8AD118D6AE3F00BAB775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bendiciones Ordenanzas Sacerdocio SUD.app/Bendiciones Ordenanzas Sacerdocio SUD";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bendiciones Ordenanzas Sacerdocio SUD/Bendiciones Ordenanzas Sacerdocio SUD-Prefix.pch";
+				INFOPLIST_FILE = "Bendiciones Ordenanzas Sacerdocio SUDTests/Bendiciones Ordenanzas Sacerdocio SUDTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D0A8A9518D6AE3F00BAB775 /* Build configuration list for PBXProject "Bendiciones Ordenanzas Sacerdocio SUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D0A8ACA18D6AE3F00BAB775 /* Debug */,
+				9D0A8ACB18D6AE3F00BAB775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D0A8ACC18D6AE3F00BAB775 /* Build configuration list for PBXNativeTarget "Bendiciones Ordenanzas Sacerdocio SUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D0A8ACD18D6AE3F00BAB775 /* Debug */,
+				9D0A8ACE18D6AE3F00BAB775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D0A8ACF18D6AE3F00BAB775 /* Build configuration list for PBXNativeTarget "Bendiciones Ordenanzas Sacerdocio SUDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D0A8AD018D6AE3F00BAB775 /* Debug */,
+				9D0A8AD118D6AE3F00BAB775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D0A8A9218D6AE3F00BAB775 /* Project object */;
+}
