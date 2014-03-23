@@ -14,13 +14,14 @@
 		9D0A8AAA18D6AE3F00BAB775 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A8AA918D6AE3F00BAB775 /* main.m */; };
 		9D0A8AAE18D6AE3F00BAB775 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A8AAD18D6AE3F00BAB775 /* AppDelegate.m */; };
 		9D0A8AB118D6AE3F00BAB775 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D0A8AAF18D6AE3F00BAB775 /* Main.storyboard */; };
-		9D0A8AB418D6AE3F00BAB775 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A8AB318D6AE3F00BAB775 /* ViewController.m */; };
 		9D0A8AB618D6AE3F00BAB775 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D0A8AB518D6AE3F00BAB775 /* Images.xcassets */; };
 		9D0A8ABD18D6AE3F00BAB775 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0A8ABC18D6AE3F00BAB775 /* XCTest.framework */; };
 		9D0A8ABE18D6AE3F00BAB775 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0A8A9D18D6AE3F00BAB775 /* Foundation.framework */; };
 		9D0A8ABF18D6AE3F00BAB775 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0A8AA118D6AE3F00BAB775 /* UIKit.framework */; };
 		9D0A8AC718D6AE3F00BAB775 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D0A8AC518D6AE3F00BAB775 /* InfoPlist.strings */; };
 		9D0A8AC918D6AE3F00BAB775 /* Bendiciones_Ordenanzas_Sacerdocio_SUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A8AC818D6AE3F00BAB775 /* Bendiciones_Ordenanzas_Sacerdocio_SUDTests.m */; };
+		9D0A8AD418D6B17300BAB775 /* HomepageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0A8AD318D6B17300BAB775 /* HomepageViewController.m */; };
+		9DF0929118D956BF00056B84 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF0929018D956BF00056B84 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		9D0A8AAC18D6AE3F00BAB775 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9D0A8AAD18D6AE3F00BAB775 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9D0A8AB018D6AE3F00BAB775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9D0A8AB218D6AE3F00BAB775 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9D0A8AB318D6AE3F00BAB775 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9D0A8AB518D6AE3F00BAB775 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9D0A8ABB18D6AE3F00BAB775 /* Bendiciones Ordenanzas Sacerdocio SUDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bendiciones Ordenanzas Sacerdocio SUDTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D0A8ABC18D6AE3F00BAB775 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9D0A8AC418D6AE3F00BAB775 /* Bendiciones Ordenanzas Sacerdocio SUDTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bendiciones Ordenanzas Sacerdocio SUDTests-Info.plist"; sourceTree = "<group>"; };
 		9D0A8AC618D6AE3F00BAB775 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9D0A8AC818D6AE3F00BAB775 /* Bendiciones_Ordenanzas_Sacerdocio_SUDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bendiciones_Ordenanzas_Sacerdocio_SUDTests.m; sourceTree = "<group>"; };
+		9D0A8AD218D6B17300BAB775 /* HomepageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomepageViewController.h; sourceTree = "<group>"; };
+		9D0A8AD318D6B17300BAB775 /* HomepageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomepageViewController.m; sourceTree = "<group>"; };
+		9DF0928F18D956BF00056B84 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		9DF0929018D956BF00056B84 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		9D0A8A9118D6AE3F00BAB775 = {
 			isa = PBXGroup;
 			children = (
+				9D0A8AD218D6B17300BAB775 /* HomepageViewController.h */,
+				9D0A8AD318D6B17300BAB775 /* HomepageViewController.m */,
 				9D0A8AA318D6AE3F00BAB775 /* Bendiciones Ordenanzas Sacerdocio SUD */,
 				9D0A8AC218D6AE3F00BAB775 /* Bendiciones Ordenanzas Sacerdocio SUDTests */,
 				9D0A8A9C18D6AE3F00BAB775 /* Frameworks */,
@@ -115,10 +120,10 @@
 				9D0A8AAC18D6AE3F00BAB775 /* AppDelegate.h */,
 				9D0A8AAD18D6AE3F00BAB775 /* AppDelegate.m */,
 				9D0A8AAF18D6AE3F00BAB775 /* Main.storyboard */,
-				9D0A8AB218D6AE3F00BAB775 /* ViewController.h */,
-				9D0A8AB318D6AE3F00BAB775 /* ViewController.m */,
 				9D0A8AB518D6AE3F00BAB775 /* Images.xcassets */,
 				9D0A8AA418D6AE3F00BAB775 /* Supporting Files */,
+				9DF0928F18D956BF00056B84 /* DetailViewController.h */,
+				9DF0929018D956BF00056B84 /* DetailViewController.m */,
 			);
 			path = "Bendiciones Ordenanzas Sacerdocio SUD";
 			sourceTree = "<group>";
@@ -249,9 +254,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D0A8AB418D6AE3F00BAB775 /* ViewController.m in Sources */,
+				9D0A8AD418D6B17300BAB775 /* HomepageViewController.m in Sources */,
 				9D0A8AAE18D6AE3F00BAB775 /* AppDelegate.m in Sources */,
 				9D0A8AAA18D6AE3F00BAB775 /* main.m in Sources */,
+				9DF0929118D956BF00056B84 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +462,7 @@
 				9D0A8ACE18D6AE3F00BAB775 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D0A8ACF18D6AE3F00BAB775 /* Build configuration list for PBXNativeTarget "Bendiciones Ordenanzas Sacerdocio SUDTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				9D0A8AD118D6AE3F00BAB775 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
