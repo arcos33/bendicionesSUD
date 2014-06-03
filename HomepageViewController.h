@@ -8,9 +8,17 @@
 
 #import <UIKit/UIKit.h>
 #import "DetailViewController.h"
+#import "Blessing.h"
 
 @interface HomepageViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
-
-@property (strong, nonatomic) NSArray *blessings;
+{
+    NSMutableArray *blessings;
+    NSArray *finalArray;
+    Blessing *cellBlessing;
+    IBOutlet UITableView *tableview;
+}
+@property (strong, nonatomic) NSArray *blessingsArray;
+@property (strong, nonatomic) Blessing *blessing;
+@property (strong, nonatomic) NSMutableArray *mainBlessingsArray;
 
 @end

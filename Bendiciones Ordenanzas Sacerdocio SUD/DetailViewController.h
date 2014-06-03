@@ -7,7 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Blessing.h"
+#import <MessageUI/MessageUI.h>
 
-@interface DetailViewController : UIViewController
+@interface DetailViewController : UIViewController <MFMessageComposeViewControllerDelegate>
+
+{
+    IBOutlet UIImageView *backgroundImage;
+    IBOutlet UIButton *sendSMSBUTTON;
+    
+    IBOutlet UILabel *titleLABEL;
+}
+@property (weak, nonatomic) IBOutlet UITextView *descriptionTEXTVIEW;
+@property (strong, nonatomic) Blessing *blessing;
+- (IBAction)sendSMSACTION:(id)sender;
 
 @end

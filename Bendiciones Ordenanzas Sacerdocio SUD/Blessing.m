@@ -10,4 +10,7 @@
 
 @implementation Blessing
 
+@synthesize description;
+@synthesize name;
+
 @end
