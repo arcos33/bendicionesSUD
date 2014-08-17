@@ -8,6 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OrganizacionViewController : UIViewController
+@interface OrganizacionViewController : UIViewController<UINavigationControllerDelegate, UIImagePickerControllerDelegate>
+{
+    IBOutlet UIButton *toBendiciones;
+    IBOutlet UIButton *toOrganizacion;
+    IBOutlet UIButton *toInfo;
+    IBOutlet UIImageView *presidentImage;
+}
+
+- (IBAction)toBlessings:(id)sender;
+- (IBAction)toInfo:(id)sender;
+-(IBAction)takePhoto :(id)sender;
+-(IBAction)chooseFromLibrary:(id)sender;
+
 
 @end

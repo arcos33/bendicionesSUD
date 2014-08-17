@@ -7,6 +7,8 @@
 //
 
 #import "OrganizacionViewController.h"
+#import "HomepageViewController.h"
+
 
 @interface OrganizacionViewController ()
 
@@ -35,15 +37,92 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+- (IBAction)toBlessings:(id)sender
 {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    [self animateBlessingsButton];
+    [self performSelector:@selector(toBlessingsb) withObject:nil afterDelay:.3];
+    
 }
-*/
 
+- (void)toBlessingsb
+{
+    UIStoryboard *storyboard = self.storyboard;
+    UINavigationController *mainNavigationController = [storyboard instantiateInitialViewController];
+    [self presentViewController:mainNavigationController animated:YES completion:nil];
+}
+
+- (IBAction)toInfo:(id)sender
+{
+
+}
+
+
+- (void)animateBlessingsButton
+{
+    toBendiciones.transform = CGAffineTransformScale(CGAffineTransformIdentity, 0.001, 0.001);
+    
+    //imgView is your UIImageView where you set an image
+    [UIView animateWithDuration:0.3/1.5 animations:^{
+        toBendiciones.transform = CGAffineTransformScale(CGAffineTransformIdentity, 1.1, 1.1);
+    } completion:^(BOOL finished) {
+        [UIView animateWithDuration:0.3/2 animations:^{
+            toBendiciones.transform = CGAffineTransformScale(CGAffineTransformIdentity, 1.1, 1.1);
+        } completion:^(BOOL finished) {
+            [UIView animateWithDuration:0.3/2 animations:^{
+                toBendiciones.transform = CGAffineTransformIdentity;
+            }];
+        }];
+    }];
+}
+
+- (void)animateOrganizacionButton
+{
+
+}
+
+
+-(IBAction)takePhoto :(id)sender
+
+{
+    UIImagePickerController *imagePickerController = [[UIImagePickerController alloc] init];
+    
+    if ([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera])
+    {
+        [imagePickerController setSourceType:UIImagePickerControllerSourceTypeCamera];
+    }
+    
+    // image picker needs a delegate,
+    [imagePickerController setDelegate:self];
+    
+    // Place image picker on the screen
+    [self presentViewController:imagePickerController animated:YES completion:nil];
+    //[self presentModalViewController:imagePickerController animated:YES];
+}
+
+
+
+-(IBAction)chooseFromLibrary:(id)sender
+{
+    
+    UIImagePickerController *imagePickerController= [[UIImagePickerController alloc] init];
+    [imagePickerController setSourceType:UIImagePickerControllerSourceTypePhotoLibrary];
+    
+    // image picker needs a delegate so we can respond to its messages
+    [imagePickerController setDelegate:self];
+    
+    // Place image picker on the screen
+    [self presentViewController:imagePickerController animated:YES completion:nil];
+    //[self presentModalViewController:imagePickerController animated:YES];
+    
+}
+
+//delegate methode will be called after picking photo either from camera or library
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
+{
+    //[self dismissModalViewControllerAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:nil];
+    UIImage *image = [info objectForKey:UIImagePickerControllerOriginalImage];
+    
+    [presidentImage setImage:image];    // "myImageView" name of any UIImageView.
+}
 @end

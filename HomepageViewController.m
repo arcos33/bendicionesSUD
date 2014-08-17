@@ -8,6 +8,7 @@
 
 #import "HomepageViewController.h"
 #import "Blessing.h"
+#import "OrganizacionViewController.h"
 
 
 
@@ -34,6 +35,8 @@
     [super viewDidLoad];
     //self.blessingsArray = @[@"Bautismo", @"Confirmacion", @"Nombre y Bendicion de niños", @"Santa Cena", @"Consagrar Aceite", @"Bendecir a los Enfermos", @"Conferir el Sacerdocio", @"Bendicion de Consuelo & Consejo", @"Dedicar Sepulturas", @"Apartir oficiales y maestros", @"Dedicar hogares", @"Bendicion Patriarcal"];
     [self loadBlessingNames];
+
+    [toBendiciones addSubview:toOrganizacionImageView];
 }
 
 
@@ -154,15 +157,43 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+- (IBAction)toOrganizacion:(id)sender
 {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    [self animateOrganizacionButton];
+    [self performSelector:@selector(toOrganizacion) withObject:nil afterDelay:.3];
+    
 }
-*/
+
+-  (void)toOrganizacion
+{
+    UIStoryboard *storyboard = self.storyboard;
+    OrganizacionViewController *viewController = [storyboard instantiateViewControllerWithIdentifier:@"organizacion"];
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+- (IBAction)toInfo:(id)sender
+{
+    
+}
+
+
+- (void)animateOrganizacionButton
+{
+    toOrganizacion.transform = CGAffineTransformScale(CGAffineTransformIdentity, 0.001, 0.001);
+    
+    //imgView is your UIImageView where you set an image
+    [UIView animateWithDuration:0.3/1.5 animations:^{
+        toOrganizacion.transform = CGAffineTransformScale(CGAffineTransformIdentity, 1.1, 1.1);
+    } completion:^(BOOL finished) {
+        [UIView animateWithDuration:0.3/2 animations:^{
+            toOrganizacion.transform = CGAffineTransformScale(CGAffineTransformIdentity, 1.1, 1.1);
+        } completion:^(BOOL finished) {
+            [UIView animateWithDuration:0.3/2 animations:^{
+                toOrganizacion.transform = CGAffineTransformIdentity;
+            }];
+        }];
+    }];
+}
+
 
 @end

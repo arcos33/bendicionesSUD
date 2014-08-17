@@ -17,6 +17,9 @@
     IBOutlet UIButton *sendSMSBUTTON;
     
     IBOutlet UILabel *titleLABEL;
+    
+
+    
 }
 @property (weak, nonatomic) IBOutlet UITextView *descriptionTEXTVIEW;
 @property (strong, nonatomic) Blessing *blessing;
