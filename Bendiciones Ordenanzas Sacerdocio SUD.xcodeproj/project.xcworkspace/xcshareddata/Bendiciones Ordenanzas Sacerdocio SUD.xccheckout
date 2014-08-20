@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>0F2BEB3B-3A27-4B35-A5AD-C8BE6A07D6CA</string>
+	<string>7A8F91BD-F1F7-480A-AED3-81916C804970</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Bendiciones Ordenanzas Sacerdocio SUD</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>05FE8C0E-E278-4F2C-93EA-611C70B963CB</key>
-		<string>https://github.com/iosninjamaster/ben.git</string>
+		<key>43D7A1CF-4B57-467D-AB2D-7398F9E78FAD</key>
+		<string>https://github.com/joelarcos/bendicionesSUD.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Bendiciones Ordenanzas Sacerdocio SUD.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>05FE8C0E-E278-4F2C-93EA-611C70B963CB</key>
+		<key>43D7A1CF-4B57-467D-AB2D-7398F9E78FAD</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/iosninjamaster/ben.git</string>
+	<string>https://github.com/joelarcos/bendicionesSUD.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>05FE8C0E-E278-4F2C-93EA-611C70B963CB</string>
+	<string>43D7A1CF-4B57-467D-AB2D-7398F9E78FAD</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>05FE8C0E-E278-4F2C-93EA-611C70B963CB</string>
+			<string>43D7A1CF-4B57-467D-AB2D-7398F9E78FAD</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Bendiciones</string>
 		</dict>
